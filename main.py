@@ -44,7 +44,7 @@ def main():
     pygame.display.flip()
     pygame.display.update()
 
-    runnig = False
+    running = False
 
     while True:
         for event in pygame.event.get():
