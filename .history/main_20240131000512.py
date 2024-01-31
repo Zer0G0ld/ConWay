@@ -1,5 +1,5 @@
 # Invalido por hora
-# Está aqui só pra lembrar
+# Está aqui só pra a
 import time
 import pygame
 import numpy as np
