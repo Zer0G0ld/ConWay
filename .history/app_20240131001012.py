@@ -6,7 +6,7 @@ BLACK = (0,0,0)
 GREY = (128, 128, 128)
 YELLOW = (255, 255, 255)
 
-WIDTH, HEIGHT = 600, 600
+WIDTH, HEIGHT = 800, 800
 TILE_SIZE = 2
 GRID_WIDTH = WIDTH // TILE_SIZE
 GRID_HEIGHT = HEIGHT // TILE_SIZE
@@ -31,10 +31,9 @@ def main():
             if event.type == pygame. QUIT:
                 running = False
 
-    screen.fill(GREY)
+    screen.fill(GREY    )
     draw_grid(positions)
     pygame.quit()
-    pygame.display.update()
 
 if __name__ == "__main__":
     main()

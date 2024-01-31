@@ -32,7 +32,7 @@ def main():
                 running = False
 
     screen.fill(GREY)
-    draw_grid(positions)
+    draw_grid(position)
     pygame.quit()
     pygame.display.update()
 

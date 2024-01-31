@@ -16,7 +16,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 clock = pygame.time.Clock()
 
-def draw_grid(positions):
+def draw_grid(position):
     for row in range(GRID_HEIGHT):
         pygame.draw.line(screen, BLACK, (0, row * TILE_SIZE), (WIDTH, row * TILE_SIZE))
 
@@ -32,7 +32,7 @@ def main():
                 running = False
 
     screen.fill(GREY)
-    draw_grid(positions)
+    draw_grid(position)
     pygame.quit()
     pygame.display.update()
 
